@@ -42,11 +42,9 @@ public class Ruin {
 			
 			if(startAmount == winLimit) {
 				System.out.println("Simulation " + counterSimulation +": " + counter + " Win");	
-				counter = 0;
 			}
 			else {
 				System.out.println("Simulation " + counterSimulation +": " + counter + " Lose");
-				counter = 0;
 			}
 			//End of First While
 			//System.out.println("Simulations ran: " + counter);
